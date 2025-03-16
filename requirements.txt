@@ -12,3 +12,5 @@ if __name__ == "__main__":
     app.run()
 flask
 gunicorn
+pip install gunicorn
+echo "gunicorn" >> requirements.txt
